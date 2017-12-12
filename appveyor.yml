@@ -47,6 +47,7 @@ install:
   - set PATH=%PATH%;C:\Users\appveyor\.cargo\bin
   - rustc -V
   - cargo -V
+  - rustup -V
 
 # Uncomment these lines to expose RDP access information to the build machine in the build log.
 #init:
